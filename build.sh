@@ -1,5 +1,4 @@
 sudo apt update
-sudo apt-get install -y git
 sudo apt-get install -y tmux
 rm -rf ~/.tmux.conf
 cp ~/Vag/.tmux.conf ~/
