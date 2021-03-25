@@ -1,0 +1,11 @@
+tmux new-session \; \
+split-window -h \; split-window -v \; split-window -h \; split-window -v \; split-window -h \; select-layout tiled \; \
+split-window -h \; split-window -v \; \
+selectp -t 0 \; send-keys vm1 C-m \; \
+selectp -t 1 \; send-keys vm2 C-m \; \
+selectp -t 2 \; send-keys vm3 C-m \; \
+selectp -t 3 \; send-keys vm4 C-m \; \
+selectp -t 4 \; send-keys vm5 C-m \; \
+selectp -t 5 \; send-keys vm6 C-m \; \
+selectp -t 6 \; send-keys vm7 C-m \; \
+selectp -t 7 \; send-keys vm8 C-m
