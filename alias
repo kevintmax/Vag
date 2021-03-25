@@ -1,0 +1,8 @@
+echo 'alias vm1="cd ~/m1; vagrant ssh"' >> ~/.bashrc
+echo 'alias vm2="cd ~/m2; vagrant ssh"' >> ~/.bashrc
+echo 'alias vm3="cd ~/m3; vagrant ssh"' >> ~/.bashrc
+echo 'alias vm4="cd ~/m4; vagrant ssh"' >> ~/.bashrc
+echo 'alias vm5="cd ~/m5; vagrant ssh"' >> ~/.bashrc
+echo 'alias vm6="cd ~/m6; vagrant ssh"' >> ~/.bashrc
+echo 'alias vm7="cd ~/m7; vagrant ssh"' >> ~/.bashrc 
+echo 'alias vm8="cd ~/m8; vagrant ssh"' >> ~/.bashrc && source .bashrc
