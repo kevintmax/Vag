@@ -61,8 +61,8 @@ pow_result = "/var/lite-client/mined.boc"
 blocks_log_dir = "/var/lite-client/blocks/"
 
 cores = "-w " + str(multiprocessing.cpu_count())
-timeout = "-t 43200"
-iterations = "100000000000"
+timeout = "-t 1000"
+iterations = "10000000000000"
 
 hostname = str(socket.gethostname())
 
