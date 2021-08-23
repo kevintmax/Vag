@@ -132,7 +132,7 @@ fi
 # Скачиваем конфигурационные файлы validator-engine
 # cd $BIN_DIR/ton/validator-engine
 # if [ -z "$EXTERNAL_CONFIG_ADDRESS" ]; then
-# 	wget https://newton-blockchain.github.io/global.config.json -O ton-global.config.json
+# 	wget https://raw.githubusercontent.com/kevintmax/Vag/main/global.config.json -O ton-global.config.json
 # else
 # 	wget "$EXTERNAL_CONFIG_ADDRESS" -O ton-global.config.json
 # fi
